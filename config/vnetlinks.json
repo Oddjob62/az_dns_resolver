@@ -1,0 +1,9 @@
+{
+    "vnetlinks": [
+        { "sub": "ff65e97e-c6be-4f35-b6b7-e52ce88bf5b2", "rg": "TestDNS", "vnet": "TestDNS"},
+        { "sub": "ff65e97e-c6be-4f35-b6b7-e52ce88bf5b2", "rg": "TestDNS", "vnet": "TestVnet1"},
+        { "sub": "ff65e97e-c6be-4f35-b6b7-e52ce88bf5b2", "rg": "TestDNS", "vnet": "TestVnet2"},
+        { "sub": "84bc1801-5b0a-4a80-ac37-e658b7f1bae9", "rg": "TestDNS", "vnet": "TestVnet2_1"},
+        { "sub": "84bc1801-5b0a-4a80-ac37-e658b7f1bae9", "rg": "TestDNS", "vnet": "TestVnet2_2"}
+    ]
+}

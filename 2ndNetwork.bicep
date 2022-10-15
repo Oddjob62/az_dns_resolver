@@ -57,8 +57,8 @@ resource vnet 'Microsoft.Network/virtualNetworks@2022-05-01' = {
   }
 }
 
-resource TestVnet1 'Microsoft.Network/virtualNetworks@2022-05-01' = {
-  name: 'TestVnet1'
+resource TestVnet2_1 'Microsoft.Network/virtualNetworks@2022-05-01' = {
+  name: 'TestVnet2_1'
   location: rgLocation
   properties: {
     addressSpace: {
@@ -80,8 +80,8 @@ resource TestVnet1 'Microsoft.Network/virtualNetworks@2022-05-01' = {
   }
 }
 
-resource TestVnet2 'Microsoft.Network/virtualNetworks@2022-05-01' = {
-  name: 'TestVnet2'
+resource TestVnet2_2 'Microsoft.Network/virtualNetworks@2022-05-01' = {
+  name: 'TestVnet2_2'
   location: rgLocation
   properties: {
     addressSpace: {
